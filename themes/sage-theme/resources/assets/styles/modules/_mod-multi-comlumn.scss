@@ -1,0 +1,50 @@
+.mod-multi-column {
+    .container {
+        a:not(.btn):not(.no-underline) {
+            @apply text-a font-bold text-red tracking-a
+            no-underline
+        }
+
+        .col-item-1 {
+            h5 {
+                @apply mt-9 mb-7 xl:mt-15 xl:mb-11 xl:ml-1 xl:mr-10 
+                2xl:ml-10 2k:mb-7
+            }
+            p {
+                @apply mb-7 xl:mb-32 2xl:ml-12 2xl:mb-28 2k:mb-37
+            }
+
+            a {
+                @apply ml-3 2xl:ml-13
+            }
+        }
+
+        .col-item-2 {
+            h5 {
+                @apply mt-9 mb-8 xl:ml-2 xl:mt-13 xl:mb-11 2k:mb-7
+            }
+            
+            p {
+                @apply mb-6 xl:mb-8 2xl:ml-0 2xl:mb-16 2k:mb-13
+            }
+            
+            a {
+                @apply ml-2 2xl:ml-5
+            }
+        }
+
+        .col-item-3 {
+            h5 {
+                @apply mt-9 mb-8 xl:mt-17 xl:mr-2 xl:mb-11 2xl:ml-27 2xl:mr-23 2k:mb-8
+            }
+
+            p {
+                @apply mb-9 xl:mb-20 2xl:mb-28 2xl:ml-8 2k:mb-12
+            }
+
+            a {
+                @apply ml-2 xl:-mr-5 2xl:ml-16
+            }
+        }
+    }
+}

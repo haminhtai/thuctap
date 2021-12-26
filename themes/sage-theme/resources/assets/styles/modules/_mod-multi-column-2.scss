@@ -1,0 +1,35 @@
+.mod-multi-column-2 {
+    .container {
+        .row {
+            h2 {
+                @apply mt-16 xl:text-h3 xl:tracking-h3 xl:mt-9 xl:mb-5
+                2xl:text-h2 2xl:tracking-h2 2xl:mb-6 2xl:mt-16;
+            }
+            
+            p {
+                @apply text-36 text-heading mb-23 ml-2
+                xl:text-30 xl:text-darkblue tracking-30 xl:ml-0
+                2xl:text-h3 2xl:text-heading 2xl:tracking-h3
+            }
+
+            .col-item2 {
+                h2 {
+                    @apply xl:mt-6 xl:mb-7 xl:-ml-1 2xl:mt-15 2xl:ml-2 2k:mb-5
+                }
+                p {
+                    @apply mb-28 2xl:ml-2 2k:ml-3
+                }
+            }
+
+            .col-item3 {
+                h2 {
+                   @apply mt-10 xl:mt-2 xl:-ml-3 2xl:mt-9 2xl:-ml-1 2k:mt-8 2k:mb-6
+                }
+
+                p {
+                    @apply ml-0 xl:-ml-3
+                }
+            }
+        }
+    }
+}

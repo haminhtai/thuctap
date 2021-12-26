@@ -1,0 +1,19 @@
+.mod-testimonials {
+    .slider-list {
+        h6 {
+            @apply mt-18;
+        }
+    
+        .btn {
+            @apply w-34 h-39 text-white bg-red;
+        }
+
+        .arrow-append { 
+            @apply absolute text-34 -right-16 bottom-29;
+        }
+
+        .slick-prev-1{ 
+            transform: translateX(1px);
+        }
+    }  
+}

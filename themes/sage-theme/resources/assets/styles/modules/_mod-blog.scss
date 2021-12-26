@@ -1,0 +1,33 @@
+.mod-blog  {
+    h4 {        
+        @apply mb-4;
+    }
+
+    h5 {
+        @apply mb-17 xl:mb-8 2xl:mb-4;
+    }
+
+    a:not(.btn):not(.no-underline) {
+        @apply text-a font-bold text-red tracking-a
+        no-underline;
+    }
+
+    p:first-child {
+        @apply font-bold text-red leading-a mb-0
+        2xl:text-base 2xl:tracking-body
+        2xl:absolute 2xl:left-8;
+    }
+
+    p {
+        @apply mb-19 xl:mb-18 2xl:mb-18;
+    }
+    
+    .first-blog{
+        p { 
+            @apply mb-10 xl:mb-22 2xl:mb-10;
+        }
+    }
+    
+
+    
+}

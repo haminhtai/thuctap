@@ -1,0 +1,27 @@
+.mod-content-multi-item {
+    .first-col {
+        .line-col {
+            @apply w-93 h-1 bg-red mb-15 ml-1;
+        }
+    }
+
+    .second-col {
+        .col-item1{
+            h5 {
+                @apply mb-5;
+            } 
+        }
+
+        .col-item2, .col-item3 {
+            h5 {
+                @apply mb-6;
+            }
+        }
+
+        .col-item4 {
+            h5 {
+                @apply mb-5;
+            } 
+        }
+    }
+}

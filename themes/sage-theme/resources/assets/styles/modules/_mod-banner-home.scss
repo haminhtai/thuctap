@@ -1,0 +1,22 @@
+.mod-banner-home {
+    .container {
+        .btn {
+            @apply bg-red py-8 px-38 rounded-27;
+        }
+
+        h1 {
+            @apply mb-6
+        }
+
+        p {
+            @apply text-h6 tracking-h6
+            mx-75 mb-17
+            xl:mx-0 xl:mb-16
+            2xl:mr-50
+        }
+
+        a {
+            @apply ml-1
+        }
+    }
+}

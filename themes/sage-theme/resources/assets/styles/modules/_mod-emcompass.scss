@@ -1,0 +1,169 @@
+$pColor: #666;
+
+// Phần này do bất khả kháng nên mới CSS
+
+.two-col {
+    h3 {
+        @apply mb-5;
+    }
+}
+
+.three-icon {
+    h2 {
+        @apply text-[48px] text-[#1f2c40] font-bold leading-[0.88] tracking-[-0.38px] 
+        xl:text-[36px] xl:leading-[1.33] xl:tracking-[-0.29px]
+        2xl:text-[48px] 2xl:leading-[0.88] 2xl:tracking-[-0.38px] 
+        mb-6 mt-16 xl:mt-7 xl:mb-5 2xl:mb-6 2xl:mt-16;
+    }
+    
+    p {
+        @apply text-[36px] text-[#1f2c40] font-light leading-[1.17] tracking-normal
+        xl:text-[30px] xl:text-[#1f2c3f] xl:leading-[1.2] xl:tracking-[-0.24px]
+        2xl:text-[36px] 2xl:text-[#1f2c40] 2xl:leading-[1.33] 2xl:tracking-normal;
+        // 1.24
+    }
+}
+
+.the-latest-list {
+    h2,
+    .h2 {
+      // @apply text-h3 font-bold md:text-h3-md;
+        @apply text-[28px] text-[#1f2c40] font-bold leading-[1.21] tracking-[-0.22px]
+        mb-4
+        ;
+    }
+    h3,
+    .h3 {
+        @apply mb-17 xl:mb-7 2xl:mb-3;
+    }
+        
+    a:not(.btn):not(.no-underline) {
+        @apply text-[16px] font-bold text-[#e03116] leading-[1.75] tracking-[-0.13px] 
+        no-underline;
+    }
+
+    p:first-child {
+        @apply font-bold text-[#e03116] leading-[1.56] mb-0
+        2xl:absolute left-75 2k:left-190;
+    }
+    
+    .the-last-item p{
+        @apply mb-10 xl:mb-20 2xl:mb-8;
+    }
+    
+    p {
+        @apply mb-19 xl:mb-17;
+    }
+}
+
+.header {
+    p {
+        @apply text-[20px] text-white leading-[1.40] tracking-[-0.16px]
+        px-81 mb-25
+        xl:px-0 xl:mb-21
+    }
+
+    a:not(.btn):not(.no-underline) {
+        @apply text-[16px] font-extrabold text-white leading-[1.38] tracking-[1.6px] 
+        no-underline;
+    }
+}
+
+.five-icon {
+    .container:first-child {
+        h2 { 
+            @apply mb-9 xl:px-63
+        }
+        
+        p {
+            @apply text-[20px] font-light text-[#666] leading-[1.4] tracking-[-0.16px];
+        }
+    }
+
+    .container:nth-child(2) {
+        h3 {
+            @apply mt-9 mb-6
+        }
+
+        p {
+            @apply mb-8
+        }
+
+        a:not(.btn):not(.no-underline) {
+            @apply text-[16px] font-bold text-[#e03116] leading-[1.75] tracking-[-0.13px] 
+            no-underline ml-4;
+        }  
+    }
+}
+
+section {
+    .slider {
+        h5 {
+            margin-top: 34px;
+        }
+    
+        .btn {
+            color: #fff;
+            background-color: #e03116;
+        }
+        
+        .slick-prev{
+            position: absolute;
+            font-size: 34px;
+            right: 21px;
+            bottom: 50px;
+            z-index:1;
+        }
+        
+        .slick-next{
+            position: absolute;
+            font-size: 34px;  
+            right: 0px;
+            transform: translateX(39px);
+            bottom: 50px;
+            z-index:1;
+        }
+
+        .group-arrow { 
+            position: absolute;
+            right: -50px;
+        }
+    }  
+}
+
+section {
+    .slider-logo {
+        .icon-chevron-left,
+        .icon-chevron-right {
+            font-size: 25px;
+        }
+
+        .btn {
+            color: #e03116;
+        }
+
+        .slick-prev{
+            left: 0;
+            position: absolute;
+            transform: translateX(-40px);
+            top: 40px;
+        }
+        
+        .slick-next{
+            right: 0;
+            position: absolute;
+            top: 40px;
+        }
+
+        // .slick-slide{
+        //     margin-left:  15px;
+        //     margin-right:  15px;
+        //   }
+        
+        //   .slick-list {
+        //     margin-left: -15px;
+        //     margin-right: -15px;
+        //     pointer-events: none;
+        //   }
+    }
+}

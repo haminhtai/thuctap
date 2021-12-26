@@ -1,0 +1,25 @@
+.mod-logo-partners {
+    .container {
+        h3 {
+            @apply mb-7 px-10 2xl:pl-77 2xl:pr-75 
+        }
+        
+        p {
+            @apply ml-1
+        }
+
+        .btn {
+            @apply text-35 text-red;
+        }
+
+        .slick-prev-2{ 
+            @apply absolute -left-28 xl:-left-34 2xl:-left-52 bottom-2
+        }
+
+        .slick-next-2{ 
+            @apply absolute -right-28 xl:-right-34 2xl:-right-52 bottom-2
+        }
+
+    }
+}
+

@@ -1,0 +1,93 @@
+@layer base {
+    body {
+      @apply text-base font-light text-brownish tracking-body font-sans;
+    }
+    html {
+      @apply m-0 bg-white;
+    }
+    html,
+    body{
+      // @apply overflow-x-hidden bg-gray-200;
+      @apply overflow-x-hidden;
+    }
+
+    h1,
+    .h1 {
+      // @apply text-h1 font-bold md:text-h1-md;
+      @apply text-h1 font-bold tracking-h1;
+    }
+
+    h2,
+    .h2 {
+      // @apply text-h3 font-bold md:text-h3-md;
+      @apply text-h2 font-bold text-heading tracking-h2;
+    }
+  
+    h3,
+    .h3 {
+      // @apply text-h4 font-syncopate;
+      @apply text-h3 font-bold text-heading tracking-h3;
+    }
+  
+    h4,
+    .h4 {
+      // @apply text-[20px] text-[#666] font-bold leading-[1.4] tracking-[-0.16px];
+      @apply text-h4 font-bold text-heading tracking-h4;
+    }
+  
+    h5,
+    .h5 {
+      // @apply text-h5 font-medium;
+      @apply text-h5 font-semibold text-heading tracking-h5;
+    }
+  
+    h6,
+    .h6 {
+      // @apply text-h2 font-bold md:text-h2-md;
+      @apply text-h6 font-bold text-brownish tracking-h6;
+    }
+  
+    small {
+      @apply text-sm;
+    }
+  
+    button {
+      @apply outline-none #{!important};
+    }
+  
+    // h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+      @apply mb-8;
+    }
+  
+    //p,
+    li,
+    ol,
+    ul,
+    blockquote,
+    figure{
+      margin: 0 0 15px;
+    }
+  
+    ol,
+    ul{
+      @apply block pl-20;
+    }
+  
+    ol{
+      @apply list-decimal;
+    }
+  
+    ul{
+      @apply list-disc;
+    }
+  }
+  
+  a:not(.btn):not(.no-underline) {
+    @apply text-brown-100 underline hover:no-underline;
+  }
+  
